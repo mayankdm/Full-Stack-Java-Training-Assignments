@@ -1,4 +1,4 @@
-package day4;
+package Day5;
 
 public class Voter {
 	public boolean isVoterValid(int age) throws Exception {
