@@ -1,4 +1,4 @@
-package day3;
+package week1;
 
 @FunctionalInterface
 public interface OddNumber {

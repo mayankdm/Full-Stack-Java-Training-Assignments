@@ -1,4 +1,4 @@
-package day3;
+package week1;
 
 public class LambdaExpression {
 	public static void main(String[] args) {

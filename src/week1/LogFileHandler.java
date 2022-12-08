@@ -1,4 +1,4 @@
-package day4;
+package week1;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;

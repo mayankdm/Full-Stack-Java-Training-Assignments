@@ -1,4 +1,4 @@
-package day1;
+package week1;
 
 public class BookMyMovie {
 	private int movieId;

@@ -1,4 +1,4 @@
-package day1;
+package week1;
 
 public class QuadraticEquation {
 	public static void main(String[] args) {

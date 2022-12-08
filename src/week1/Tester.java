@@ -1,4 +1,4 @@
-package day4;
+package week1;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
