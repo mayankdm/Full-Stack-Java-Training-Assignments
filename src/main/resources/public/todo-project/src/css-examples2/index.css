@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+    color: blue;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: blue;
+    color: white;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}

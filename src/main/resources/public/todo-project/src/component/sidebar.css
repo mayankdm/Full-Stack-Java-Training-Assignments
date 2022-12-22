@@ -1,0 +1,12 @@
+.sidebar {
+    width: 25rem;
+    background: #3e7e3e;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 41rem;
+    margin: 1rem;
+    margin-left: 0;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+td {
+    text-align: left;
+}
+
+.reg-form-table {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 25%;
+}
+
+textarea {
+    width: 96%;
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.input-background {
+    background-color: rgb(230, 230, 215);
+}

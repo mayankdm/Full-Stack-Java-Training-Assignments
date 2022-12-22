@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <table class="reg-form-table">
+        <tr>
+            <th colspan="3">XYZ Registration Form</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Personal details</th>
+        <tr>
+            <th class='required'>First Name</th>
+            <td><input type="text" class="input-background" maxlength="10" required></td>
+        </tr>
+        <tr>
+            <th class='required'>Last Name</th>
+            <td><input class="input-background" type="text" maxlength="10" required></td>
+        </tr>
+        <tr>
+            <th class='required'>Date of Birth</th>
+            <td><input type="date" required></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" id="male">
+                  <label for="male">Male</label>
+                  <input type="radio" id="female">
+                  <label for="female">Female</label>
+                  <input type="radio" id="other">
+                  <label for="other">Other</label></td>
+        </tr>
+        </tr>
+        <tr>
+            <th rowspan="5">Academic details</th>
+        <tr>
+            <th>Degree</th>
+            <td><select name="" id="">
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</option>
+                    <option value="doctorate">Doctorate</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th class='required'>Specialization</th>
+            <td><input type="text" value="English Literature" maxlength="40" required></td>
+        </tr>
+        <tr>
+            <th class='required'>Mode of Instruction</th>
+            <td> <input type="checkbox" id="classroom" value="classroom">
+                <label for="classroom">Classroom</label>
+                <input type="checkbox" id="online" value="online">
+                <label for="online">Online</label>
+            </td>
+        </tr>
+        <tr>
+            <th class='required'>Current GPA</th>
+            <td>
+                <input type="number" id="gpa" step="0.1" maxlength="5">
+            </td>
+        </tr>
+        </tr>
+        <tr>
+            <th rowspan="3">Contact details</th>
+        <tr>
+            <th class='required'>Phone Number</th>
+            <td>
+                <input class="input-background" type="number" required>
+            </td>
+        </tr>
+        <tr>
+            <th class='required'>Address</th>
+            <td><textarea class="input-background" rows="4" cols="40" style="resize:none" required></textarea></td>
+        </tr>
+        </tr>
+        <tr>
+            <th colspan="3">I assure all the details entered are correct<input type="checkbox" id="declaration"><label
+                    for="declaration">Yes</label></th>
+        </tr>
+        <tr>
+            <th colspan="3"><input type="button" value="Submit"></th>
+        </tr>
+    </table>
+</body>
+
+</html>

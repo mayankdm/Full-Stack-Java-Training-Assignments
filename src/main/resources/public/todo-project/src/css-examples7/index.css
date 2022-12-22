@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.color-td {
+    background-color: rgb(209, 209, 152);
+}
+
+.align-centre {
+    text-align: center;
+}

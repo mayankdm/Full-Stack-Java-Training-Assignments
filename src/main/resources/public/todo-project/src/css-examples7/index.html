@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>XYZ Online Delivery</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2" class="align-centre">XYZ Online Delivery</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="align-centre">Personal Details</td>
+        </tr>
+        <tr>
+            <th>Firstname</th>
+            <td><input class="color-td" type="text" required maxlength="20"></td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td><input type="number" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="align-centre">Order Preferences</td>
+        </tr>
+        <tr>
+            <th>Size</th>
+            <td><input type="radio" name="size" id="size" required>Small<input type="radio" name="size"
+                    id="size">Medium<input type="radio" name="size" id="size">Large</td>
+        </tr>
+        <tr>
+            <th>Base</th>
+            <td><select name="" id="base" required>
+                    <option value="panPizza">Pan Pizza</option>
+                    <option value="cheeseCrust">Cheese Crust</option>
+                    <option value="chickenStuffedCust">Chicken Stuffed Crust</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th>Toppings</th>
+            <td><input type="checkbox" name="" id="cheese">Cheese<input type="checkbox" name="" id="olives"> Olives
+                <input type="checkbox" name="" id="tomatoes">Tomatoes<input type="checkbox" name="" id="">Capsicum<input type="checkbox" name="" id="">Jalapenos<input
+                    type="checkbox" name="" id="">Mushrooms<input type="checkbox" name="" id="tomatoes">Pepperoni<input type="checkbox" name="" id="tomatoes">Onion</td>
+        </tr>
+        <tr>
+            <th class="align-centre">Additional Details</th>
+            <td class="align-centre"><textarea name="" id="" cols="30" rows="2"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="align-centre">Confirm details and proceed to pay <input type="radio" name="confirm" id="">Yes<input type="radio" name="confirm" id="">No</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="align-centre"><input type="button" value="Submit"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
