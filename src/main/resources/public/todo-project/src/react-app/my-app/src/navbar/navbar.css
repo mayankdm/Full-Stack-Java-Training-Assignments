@@ -1,0 +1,19 @@
+.logo {
+    width: 2rem;
+    left: 1rem;
+    position: absolute;
+}
+
+.nav-brandname {
+    position: absolute;
+    left: 4rem;
+}
+
+.nav-rightmenu {
+    right: 1rem;
+    position: absolute;
+}
+
+.nav-link:hover {
+    color: blue;
+}
