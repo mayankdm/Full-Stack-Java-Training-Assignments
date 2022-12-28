@@ -1,0 +1,14 @@
+.welcome {
+    margin-top: 5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.welcome-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
