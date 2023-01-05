@@ -1,0 +1,59 @@
+table {
+    max-width: 75%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.table-header {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.add-item {
+    margin: auto;
+    font-size: 1.3rem;
+    color: rgb(74, 85, 231);
+}
+
+.add-item:hover {
+    color: rgb(23, 36, 226);
+}
+
+.edit-icon {
+    float: right;
+    margin-right: 2rem;
+    color: #6254d8;
+}
+
+.edit-icon:hover {
+    color: #b954d8;
+}
+
+.delete-icon {
+    color: rgb(231, 161, 161);
+}
+
+.delete-icon:hover {
+    color: rgb(248, 4, 4);
+}
+.view-icon {
+    color: rgb(231, 161, 161);
+}
+
+.view-icon:hover {
+    color: rgb(248, 4, 4);
+}
+
+.add-item-form {
+    width: 25%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.action-icon {
+    margin: 0.5rem;
+}
+
+.tool-icons {
+    width: 7rem;
+}
